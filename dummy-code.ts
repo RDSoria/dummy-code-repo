@@ -7,11 +7,10 @@ export function processAndSumArray(numbers: number[]): number {
         } else {
             sum += numbers[i]; // Sum odd numbers as they are
         }
-		//let p =0;
-        if (sum > 1000) {
+		//let t =0;
+        if (sum > 11000) {
             console.warn("Sum exceeded 1000, stopping early.");
-            break; // Break the loop if sum goes beyond a threshold
-        }
+            break;  }
     }
 
     return sum;
